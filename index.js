@@ -1,9 +1,11 @@
 import HyPNS from 'hypns'
 import createHypnsDid from 'js-did-hypns'
 
-export function getResolver () {
-  const hypnsNode = new HyPNS({ persist: false })
+// https://github.com/decentralized-identity/did-resolver
+export function getResolver (opts = {}) {
+  const hypnsNode = opts.hypnsNode || new HyPNS({ persist: false })
   const HypnsDid = createHypnsDid(hypnsNode)
+
   async function resolve (
     did,
     parsed,

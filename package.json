@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/DougAnderson444/hypns-did-resolver.git"
   },
-  "keywords": [],
+  "keywords": [
+    "hypns",
+    "did",
+    "did-resolver",
+    "ssi",
+    "feeless"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {

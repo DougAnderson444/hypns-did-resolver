@@ -9,6 +9,7 @@ export function getResolver (opts = {}) {
     parsed,
     didResolver
   ) {
+    // console.log({parsed})
     // {
     // method: 'mymethod',
     // id: 'abcdefg',

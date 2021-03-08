@@ -8,7 +8,7 @@ See: [decentralized-identity/did-resolver](https://github.com/decentralized-iden
 
 ## Usage
 
-This is the HyPNS version of [ethr DID Resolver](https://github.com/decentralized-identity/ethr-did-resolver), for those who don't like to pay gas fees.
+This is the HyPNS version of [ethr DID Resolver](https://github.com/decentralized-identity/ethr-did-resolver), for those who don't like to pay gas fees every time a DID changes.
 
 Implements the interface at [decentralized-identity/did-resolver](https://github.com/decentralized-identity/did-resolver) which allows DID method implementors to release npm packages that applications can add.
 
@@ -45,7 +45,7 @@ const doc = await resolver.resolve('did:hypns:DEADBEEFDEADBEEFDEADBEEFDEADBEEF/s
 
 # Test
 
-You can run the test as `node test.mjs` or `npm run test` and check out the console. It creates a new DID, publishes it to HyPNS, then resolves that DID Doc back for you.
+You can see an example usage and run the test as `node test.mjs` or `npm run test` and check out the console. It creates a new DID, publishes it to HyPNS, then resolves that DID Doc back for you.
 
 # Caching
 Resolving DID Documents can be expensive. OH WAIT, THAT'S FOR BLOCKCHAIN. Hypns is free since it uses hypercore-protocol and it's self hosted by you and your friends. No need to cache, it's already done for you.

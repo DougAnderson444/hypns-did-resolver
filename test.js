@@ -1,5 +1,5 @@
 import { Resolver } from 'did-resolver'
-import { getResolver } from './index.mjs'
+import { getResolver } from './index.js'
 import HyPNS from 'hypns'
 import { createHypnsDid } from 'js-did-hypns'
 

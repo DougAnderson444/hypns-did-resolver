@@ -3,8 +3,9 @@
   "version": "1.0.2",
   "description": "Decentralized resolver of HyPNS DIDs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "node test.mjs"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",

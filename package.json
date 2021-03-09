@@ -1,6 +1,6 @@
 {
   "name": "hypns-did-resolver",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Decentralized resolver of HyPNS DIDs",
   "main": "index.js",
   "scripts": {
@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/DougAnderson444/hypns-did-resolver#readme",
   "dependencies": {
-    "hypns": "^2.0.0",
-    "js-did-hypns": "file:../js-did-hypns"
+    "js-did-hypns": "^4.3.1"
   },
   "devDependencies": {
-    "did-resolver": "^3.0.1"
+    "did-resolver": "^3.0.1",
+    "hypns": "^2.0.0"
   }
 }
